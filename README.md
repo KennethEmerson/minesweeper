@@ -1,6 +1,9 @@
 # minesweeper
 a simple minesweeper game written in C
 
+![Screenshot](https://github.com/KennethEmerson/minesweeper/blob/master/Screenshot.png)
+
+
 the game accepts the following command line parameters:
 
     -w <int>        : the required number of columns (must be between 1 and COLMAX = 25)
@@ -44,4 +47,3 @@ During the complete course of the game,  the user can end the game by closing th
 
 To win the game the player must reveal all cells not containing mines or
 correctly place all flags in the cells containing mines. 
-
